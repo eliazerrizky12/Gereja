@@ -46,7 +46,7 @@ export default function StrukturBPJSection() {
             </div>
 
             <a
-              href="/documents/sk-bpj.pdf"
+              href="/sk-bpj.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition hover:opacity-90"
@@ -71,7 +71,7 @@ export default function StrukturBPJSection() {
             </div>
 
             <a
-              href="/documents/sk-phhbk.pdf"
+              href="sk-phhbk.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition hover:opacity-90"

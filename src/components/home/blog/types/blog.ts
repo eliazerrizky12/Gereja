@@ -26,6 +26,8 @@ export interface Blog {
 
   coverImage: string;
 
+  images?: string[];
+
   gallery?: string[];
 
   category: BlogCategory;

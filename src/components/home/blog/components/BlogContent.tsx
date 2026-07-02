@@ -33,6 +33,25 @@ export default function BlogContent({ blog }: BlogContentProps) {
           <p key={index}>{paragraph}</p>
         ))}
       </div>
+
+      {blog.images && blog.images.length > 0 && (
+        <section className="mt-12">
+          <h2 className="mb-6 text-2xl font-bold">Dokumentasi Kegiatan</h2>
+
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {blog.images.map((image, index) => (
+              <Image
+                key={index}
+                src={image}
+                alt={`${blog.title} ${index + 1}`}
+                width={800}
+                height={600}
+                className="aspect-4/3 rounded-xl object-cover"
+              />
+            ))}
+          </div>
+        </section>
+      )}
     </article>
   );
 }

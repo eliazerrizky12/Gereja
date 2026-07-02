@@ -163,6 +163,19 @@ const communities = [
     logo: "/musik.jpeg",
     trainings: ["Selasa • 16.00 WITA", "Sabtu • 14.00 WITA"],
   },
+  {
+    title: "Komunitas Sekolah Minggu",
+    description:
+      "Komunitas Sekolah Minggu yang membimbing anak-anak dalam pertumbuhan iman dan karakter Kristus.",
+    leader: "Ibu Christine Ria Christina",
+    schedule: {
+      date: "Setiap hari minggu di ruang sekretariat.",
+      mc: "Menunggu info",
+      preacher: "Menunggu info",
+      place: "Menunggu info",
+      time: "Menunggu info",
+    },
+  },
 ];
 
 export default function KomunitasGerejaSection() {
