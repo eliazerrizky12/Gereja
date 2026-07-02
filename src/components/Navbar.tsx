@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { Church, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -49,15 +50,28 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 border-b bg-background/90 backdrop-blur">
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
         {/* Logo */}
-        <Link
-          href="#beranda"
-          className="flex items-center gap-2 font-bold text-primary"
-        >
-          <Church className="h-6 w-6" />
-          <span className="hidden sm:inline">GKII Barong Tongkok</span>
+        <Link href="#beranda" className="flex items-center gap-3">
+          <Image
+            src="/logo.jpeg"
+            alt="Logo GKII"
+            width={44}
+            height={44}
+            priority
+            className="h-11 w-11 object-contain"
+          />
+
+          <div className="hidden sm:block">
+            <h1 className="text-base font-bold leading-none text-primary">
+              GKII Barong Tongkok
+            </h1>
+
+            <p className="mt-1 text-xs text-muted-foreground">
+              Gereja Kemah Injil Indonesia
+            </p>
+          </div>
         </Link>
 
-        {/* Desktop */}
+        {/* Desktop Menu */}
         <div className="hidden items-center gap-6 lg:flex">
           {navLinks.map((link) => (
             <Link
@@ -70,7 +84,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Mobile */}
+        {/* Mobile Menu */}
         <div className="lg:hidden">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
