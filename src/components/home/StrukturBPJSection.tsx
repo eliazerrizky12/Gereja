@@ -1,7 +1,11 @@
 "use client";
 
+import Link from "next/link";
+
 import { motion } from "framer-motion";
-import { FileText, Eye } from "lucide-react";
+import { Eye, FileText } from "lucide-react";
+
+import { Button } from "@/components/ui/button";
 
 export default function StrukturBPJSection() {
   return (
@@ -22,15 +26,14 @@ export default function StrukturBPJSection() {
         </motion.div>
 
         {/* Card */}
-
         <motion.div
           initial={{ opacity: 0, scale: 0.96 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           className="overflow-hidden rounded-3xl border bg-card shadow-xl"
         >
-          {/* Footer */}
-          <div className="flex flex-col gap-4 p-6 md:flex-row md:items-center md:justify-between">
+          {/* BPJ */}
+          <div className="flex flex-col gap-4 border-b p-6 md:flex-row md:items-center md:justify-between">
             <div className="flex items-center gap-3">
               <div className="rounded-xl bg-primary/10 p-3">
                 <FileText className="text-primary" />
@@ -45,16 +48,19 @@ export default function StrukturBPJSection() {
               </div>
             </div>
 
-            <a
-              href="/sk-bpj.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition hover:opacity-90"
-            >
-              <Eye size={18} />
-              Detail Struktur
-            </a>
+            <Button asChild size="lg" className="rounded-full">
+              <Link
+                href="/sk-bpj.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Eye className="mr-2 h-4 w-4" />
+                Detail Struktur
+              </Link>
+            </Button>
           </div>
+
+          {/* PHHBK */}
           <div className="flex flex-col gap-4 p-6 md:flex-row md:items-center md:justify-between">
             <div className="flex items-center gap-3">
               <div className="rounded-xl bg-primary/10 p-3">
@@ -70,15 +76,16 @@ export default function StrukturBPJSection() {
               </div>
             </div>
 
-            <a
-              href="sk-phhbk.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition hover:opacity-90"
-            >
-              <Eye size={18} />
-              Detail Struktur
-            </a>
+            <Button asChild size="lg" className="rounded-full">
+              <Link
+                href="/sk-phhbk.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Eye className="mr-2 h-4 w-4" />
+                Detail Struktur
+              </Link>
+            </Button>
           </div>
         </motion.div>
       </div>
