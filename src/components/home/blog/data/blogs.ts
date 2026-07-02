@@ -50,10 +50,10 @@ export const blogs: Blog[] = [
     slug: "erik-victory-resmi-dilantik-sebagai-sekda-kutai-barat",
 
     title:
-      "Kabar Sukacita: Bpk. Erik Victory Resmi Dilantik Menjadi Sekretaris Daerah Kabupaten Kutai Barat",
+      "Kabar Sukacita: Bpk. Erik Victory Resmi Dilantik sebagai Sekretaris Daerah Kabupaten Kutai Barat",
 
     excerpt:
-      "Keluarga besar GKII Barong Tongkok mengucapkan selamat kepada Bpk. Erik Victory, S.Sos., M.Si. yang resmi dilantik sebagai Sekretaris Daerah Kabupaten Kutai Barat.",
+      "GKII Jemaat Barong Tongkok mengucapkan selamat kepada Bpk. Erik Victory, S.Sos., M.Si. atas pelantikan dan pengambilan sumpah jabatan sebagai Sekretaris Daerah Kabupaten Kutai Barat.",
 
     coverImage: "/blog/erik-victory/erik-victory-sekda-kubar.jpeg",
 
@@ -72,7 +72,7 @@ export const blogs: Blog[] = [
 
     createdAt: "2026-07-01",
 
-    readingTime: 4,
+    readingTime: 5,
 
     featured: true,
 
@@ -84,27 +84,28 @@ export const blogs: Blog[] = [
       "Erik Victory",
       "GKII Barong Tongkok",
       "Pelantikan",
+      "Pemerintahan",
       "Berita",
     ],
 
     content: [
-      "BARONG TONGKOK, KUTAI BARAT — Kabar sukacita dan kebanggaan menyelimuti keluarga besar Gereja Kemah Injil Indonesia (GKII) Barong Tongkok. Salah satu jemaat GKII Barong Tongkok, Bapak Erik Victory, S.Sos., M.Si., secara resmi dilantik sebagai Sekretaris Daerah (Sekda) Kabupaten Kutai Barat.",
+      "Dengan sukacita dan rasa syukur kepada Tuhan, keluarga besar GKII Jemaat Barong Tongkok mengucapkan selamat atas pelantikan dan pengambilan sumpah jabatan Bapak Erik Victory, S.Sos., M.Si. sebagai Sekretaris Daerah Kabupaten Kutai Barat.",
 
-      "Prosesi pelantikan dipimpin langsung oleh Bupati Kutai Barat dan dilaksanakan di Balai Agung Aji Tulur Jejangkat pada pukul 14.00 WITA. Acara berlangsung dengan penuh khidmat serta dihadiri oleh jajaran Pemerintah Kabupaten Kutai Barat beserta para tamu undangan.",
+      "Pelantikan dilaksanakan pada hari Rabu, 01 Juli 2026, pukul 14.00 WITA, bertempat di Auditorium Aji Tulur Jejangkat. Acara berlangsung dengan penuh khidmat dan menjadi momen penting bagi Pemerintah Kabupaten Kutai Barat.",
 
-      "Momen yang paling berkesan dalam pelantikan tersebut terjadi saat prosesi pengambilan sumpah jabatan. Bapak Erik Victory didampingi secara langsung oleh Pdt. Bernabas Bin Sala selaku Gembala Sidang GKII Barong Tongkok. Kehadiran beliau menjadi simbol dukungan doa, penyertaan rohani, dan restu dari keluarga besar gereja atas amanah baru yang dipercayakan kepada Bapak Erik Victory.",
+      "Prosesi pelantikan dan pengambilan sumpah jabatan turut disaksikan oleh Bapak Ismail Thomas (Mantan Bupati Kutai Barat), Ketua DPRD Kabupaten Kutai Barat, Kapolres Kutai Barat, Dandim (Komandan Kodim), serta seluruh jajaran Pemerintah Daerah Kabupaten Kutai Barat.",
 
-      "Ringkasan Pelantikan:",
+      "Kami turut merasa bangga atas kepercayaan yang Tuhan berikan kepada Bapak Erik Victory untuk mengemban amanah besar dalam melayani masyarakat Kabupaten Kutai Barat. Kiranya pelantikan ini menjadi awal pelayanan yang penuh integritas, kebijaksanaan, serta mencerminkan kasih Tuhan bagi seluruh masyarakat.",
 
-      "• Yang Dilantik: Bapak Erik Victory, S.Sos., M.Si.\n• Status: Jemaat GKII Barong Tongkok\n• Jabatan: Sekretaris Daerah (Sekda) Kabupaten Kutai Barat\n• Pendamping Sumpah Jabatan: Pdt. Bernabas Bin Sala\n• Lokasi: Balai Agung Aji Tulur Jejangkat\n• Waktu: Pukul 14.00 WITA",
+      "Salah satu momen yang sangat istimewa dan mengharukan bagi keluarga besar GKII Jemaat Barong Tongkok terjadi saat prosesi pengambilan sumpah jabatan. Dalam momen yang sakral tersebut, Bapak Erik Victory didampingi secara langsung oleh Pdt. Bernabas Bin Sala selaku Gembala Jemaat GKII Barong Tongkok. Kehadiran beliau menjadi simbol dukungan doa, penyertaan, dan restu rohani dari keluarga besar gereja bagi amanah baru yang dipercayakan kepada Bapak Erik Victory.",
 
-      "Keluarga besar GKII Barong Tongkok mengucapkan selamat dan sukses atas pelantikan Bapak Erik Victory sebagai Sekretaris Daerah Kabupaten Kutai Barat. Kepercayaan yang diberikan kepada beliau merupakan sebuah amanah besar sekaligus kesaksian bahwa Tuhan dapat memakai setiap anak-Nya untuk melayani masyarakat melalui berbagai bidang, termasuk pemerintahan.",
+      "Doa kami, kiranya Tuhan senantiasa menganugerahkan hikmat, kebijaksanaan, dan pengertian sehingga setiap keputusan yang diambil berpihak kepada kebenaran, keadilan, serta kesejahteraan seluruh masyarakat Kabupaten Kutai Barat.",
 
-      "Kiranya Tuhan Yesus Kristus senantiasa memberikan hikmat, integritas, kesehatan, dan kekuatan kepada Bapak Erik Victory dalam menjalankan setiap tanggung jawab serta mengambil keputusan yang membawa kemajuan bagi Kabupaten Kutai Barat.",
+      "Kiranya Tuhan memberikan kekuatan iman, keteguhan hati, serta integritas sehingga Bapak Erik Victory dapat menjalankan amanah sebagai Sekretaris Daerah dengan penuh tanggung jawab, menjauhkan diri dari praktik Korupsi, Kolusi, dan Nepotisme, serta senantiasa menjadi teladan dalam setiap tugas dan pelayanan kepada masyarakat.",
 
-      "Sebagaimana firman Tuhan dalam Amsal 16:3: 'Serahkanlah perbuatanmu kepada TUHAN, maka terlaksanalah segala rencanamu.'",
+      "Kami juga berdoa agar Tuhan Yesus Kristus senantiasa melindungi Bapak Erik Victory beserta keluarga, memberikan kesehatan, kekuatan, dan penyertaan-Nya sehingga dapat melaksanakan setiap tanggung jawab dengan baik.",
 
-      "Mari seluruh jemaat GKII Barong Tongkok terus menopang Bapak Erik Victory dalam doa. Kiranya Tuhan senantiasa menyertai setiap langkah pelayanan dan pengabdian beliau kepada masyarakat. Selamat bertugas, Tuhan Yesus memberkati.",
+      "Kiranya Bapak Erik Victory selalu menjadi pemimpin yang rendah hati, bijaksana, dan penuh kasih, sehingga melalui kepemimpinan beliau, Kabupaten Kutai Barat semakin mengalami kemajuan, keadilan, dan damai sejahtera bagi seluruh masyarakat. Amin.",
     ],
   },
 ];
