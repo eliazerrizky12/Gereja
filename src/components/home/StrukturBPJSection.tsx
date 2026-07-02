@@ -50,7 +50,7 @@ export default function StrukturBPJSection() {
 
             <Button asChild size="lg" className="rounded-full">
               <Link
-                href="/sk-bpj.pdf"
+                href="/SK-BPJ.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -78,7 +78,7 @@ export default function StrukturBPJSection() {
 
             <Button asChild size="lg" className="rounded-full">
               <Link
-                href="/sk-phhbk.pdf"
+                href="/SK-PHHBK.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
