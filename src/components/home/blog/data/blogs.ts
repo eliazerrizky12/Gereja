@@ -55,7 +55,13 @@ export const blogs: Blog[] = [
     excerpt:
       "GKII Jemaat Barong Tongkok mengucapkan selamat atas pelantikan dan pengambilan sumpah jabatan Bapak Erik Victory, S.Sos., M.Si. sebagai Sekretaris Daerah Kabupaten Kutai Barat yang dilaksanakan pada 1 Juli 2026.",
 
-    coverImage: "/blog/pelantikan-erik-victory-sekda.jpeg",
+    coverImage: "/blog/erik-victory/erik-victory-sekda-kubar.jpeg",
+
+    images: [
+      "/blog/erik-victory/pelantikan-1.jpeg",
+      "/blog/erik-victory/pelantikan-2.jpeg",
+      "/blog/erik-victory/pelantikan-3.jpeg",
+    ],
 
     category: "Pengumuman",
 
